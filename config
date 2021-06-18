@@ -244,3 +244,5 @@ bindsym $mod+k exec flameshot
 bindsym $mod+m exec pactl suspend-sink true
 bindsym $mod+n exec pactl suspend-sink false
 
+# send a workspace to another monitor
+bindsym $mod+z move workspace to output right
